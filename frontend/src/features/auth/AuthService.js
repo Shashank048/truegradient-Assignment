@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000/api/auth';
+const API_URL = process.env.REACT_APP_API_URL || 'https://truegradient-assignment-1sss.onrender.com';
 
 export const signup = async (username, password) => {
   const res = await axios.post(`${API_URL}/signup`, { username, email, password });
