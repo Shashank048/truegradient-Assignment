@@ -8,7 +8,7 @@ const authRoutes = require('./routes/index.auth');
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://truegradient-assignment-g3fz.vercel.app/signin',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
